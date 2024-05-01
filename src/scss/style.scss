@@ -1,5 +1,25 @@
-@import "../scss/_var.scss";
-@import "../scss/_mixins.scss";
-@import "../scss/cdn.scss";
-@import "../scss/fonts.scss";
-@import "../scss/header.scss";
+@import '../scss/_var.scss';
+@import '../scss/_mixins.scss';
+@import '../scss/cdn.scss';
+@import '../scss/fonts.scss';
+@import '../scss/header.scss';
+
+html {
+	font-family: 'Raleway', 'Cardo', sans-serif;
+	font-size: 16px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+.container {
+	width: 1170px;
+	padding: 0 15px;
+	margin: auto;
+	position: relative;
+	z-index: 10;
+}
