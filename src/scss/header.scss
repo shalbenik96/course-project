@@ -5,6 +5,7 @@
 	background-size: cover;
 	padding-bottom: 120px;
 	position: relative;
+	display: flex;
 }
 .header::after {
 	content: '';
@@ -25,11 +26,12 @@
 }
 
 .header-navigation {
+	width: 58.79%;
 	display: flex;
-	margin-top: 2.25rem;
+	// margin-top: 2.25rem;
 }
 .header-navigation-list {
-	width: 41.875rem;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
