@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css";
 .header {
   background-image: url("header-bg.95cfbfe7.jpg");
   background-position: center;
@@ -194,6 +195,84 @@
   font-family: Raleway, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
+}
+
+.our-team {
+  padding: 7.125rem 0;
+}
+
+.person-card-wrapper {
+  justify-content: space-between;
+  display: flex;
+}
+
+.person-card {
+  width: 16.875rem;
+}
+
+.person-card-photo {
+  width: 16.875rem;
+  height: 16.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.person-card-photo__item {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.person-card-name {
+  color: #2d3033;
+  margin-bottom: .330625rem;
+  font-family: Raleway, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.person-card-position {
+  color: #ff4343;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.person-card-text {
+  margin-top: 1.11625rem;
+  margin-bottom: 2.36625rem;
+}
+
+.person-card-text__item {
+  color: #6c7279;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.person-card-icon-navigation {
+  width: 8.0625rem;
+}
+
+.person-card-icon__list {
+  justify-content: space-between;
+  display: flex;
+}
+
+.person-card-icon-list__item {
+  width: 2.4375rem;
+  height: 2.4375rem;
+}
+
+.person-card-icon-list__link {
+  color: #c6cbcd;
+  cursor: pointer;
+  border: 1px solid #c6cbcd;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 html {
