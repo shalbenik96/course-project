@@ -4,6 +4,7 @@
 .person-card-wrapper {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .person-card {
 	width: 16.875rem;
