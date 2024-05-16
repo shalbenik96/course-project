@@ -1,9 +1,15 @@
 .features {
-	padding: 7.25rem 10.625rem;
+	padding: 7.25rem 0;
+}
+.container__features {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .card-wrapper {
+	max-width: 100%;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 355px);
+	grid-template-columns: repeat(auto-fit, 20.9375rem);
 	grid-template-rows: repeat(2, 1fr);
 	column-gap: 1.875rem;
 	row-gap: 5.473125rem;

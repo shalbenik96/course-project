@@ -10,7 +10,7 @@
 }
 .work-card {
 	display: inline-block;
-	width: 23.75rem;
+	width: 25%;
 	cursor: pointer;
 	position: relative;
 }
@@ -25,12 +25,10 @@
 }
 
 .work-card-img {
-	width: 23.625rem;
-	height: 21.25rem;
+	width: 100%;
 }
 .work-card-img__item {
 	width: 100%;
-	height: 100%;
 }
 .word-card-description {
 	// position: absolute;

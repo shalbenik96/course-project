@@ -1,0 +1,80 @@
+.contacts {
+	padding: 4.44625rem 0 4.4375rem;
+	background-color: rgba(53, 60, 101, 1);
+}
+.container__contacts {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.location-inner {
+	width: 23.125rem;
+}
+.location-title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 1.125rem;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 1.8125rem;
+}
+.location-text {
+	text-align: center;
+}
+.location-text__item {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.125rem;
+	color: rgba(255, 255, 255, 1);
+}
+.social-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 23.125rem;
+}
+.social-title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 1.125rem;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 3.05375rem;
+}
+.person-card-icon-navigation {
+	width: 10.6875rem;
+}
+.person-card-icon__list {
+	display: flex;
+	justify-content: space-between;
+}
+.person-card-icon-list__item {
+	width: 2.4375rem;
+	height: 2.4375rem;
+}
+.person-card-icon-list__link {
+}
+
+.about-inner {
+	width: 23.125rem;
+}
+.about-title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 1.125rem;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 1.794375rem;
+}
+.about-text {
+	text-align: center;
+}
+.about-text__item {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.125rem;
+	color: rgba(255, 255, 255, 1);
+}
