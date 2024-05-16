@@ -457,6 +457,37 @@
   font-weight: 400;
 }
 
+.footer {
+  background-color: #2c3154;
+  padding: 1.49125rem 0 1.50875rem;
+}
+
+.container__footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.footer-copyright {
+  text-align: center;
+  max-width: 23.125rem;
+}
+
+.footer-copyright__item {
+  color: gray;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.footer-copyright__item:after {
+  content: "by Kamal Chaneman";
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
 html {
   font-family: Raleway, Cardo, sans-serif;
   font-size: 16px;
