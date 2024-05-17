@@ -193,6 +193,12 @@
   padding: 7.25rem 0;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .features {
+    padding: 4.875rem 1.25rem 5.00688rem;
+  }
+}
+
 .container__features {
   flex-direction: column;
   align-items: center;
@@ -200,11 +206,30 @@
 }
 
 .card-wrapper {
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, 20.9375rem);
   gap: 5.47313rem 1.875rem;
   max-width: 100%;
   display: grid;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .card-wrapper {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, 19.6875rem);
+    gap: 3.0625rem 1.21875rem;
+    max-width: 100%;
+  }
+}
+
+.card {
+  height: 19.0894rem;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .card {
+    height: 14.8125rem;
+  }
 }
 
 .card-icon {
@@ -213,9 +238,24 @@
   margin: 0 auto 1.8125rem;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .card-icon {
+    width: 5.3125rem;
+    height: 5.24813rem;
+    margin-bottom: 1.5325rem;
+  }
+}
+
 .card-icon__item {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .card-icon__item {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .card-title {
@@ -223,18 +263,32 @@
   color: #2d3033;
   text-align: center;
   margin-bottom: 1.27688rem;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 1.5rem;
   font-weight: 900;
   line-height: 4.5rem;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .card-title {
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    line-height: 3.78438rem;
+  }
+}
+
 .card-text__item {
   color: #6c7279;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .card-text__item {
+    font-size: .875rem;
+  }
 }
 
 .work-card-top, .work-card-bottom {

@@ -1,5 +1,8 @@
 .features {
 	padding: 7.25rem 0;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		padding: 4.875rem 1.25rem 5.006875rem;
+	}
 }
 .container__features {
 	display: flex;
@@ -10,9 +13,22 @@
 	max-width: 100%;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 20.9375rem);
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 	column-gap: 1.875rem;
 	row-gap: 5.473125rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		grid-template-columns: repeat(auto-fit, 19.6875rem);
+		grid-template-rows: repeat(2, 1fr);
+		max-width: 100%;
+		column-gap: 1.21875rem;
+		row-gap: 3.0625rem;
+	}
+}
+.card {
+	height: 19.089375rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		height: 14.8125rem;
+	}
 }
 
 .card-icon {
@@ -20,13 +36,22 @@
 	height: 6.25rem;
 	margin: 0 auto;
 	margin-bottom: 1.8125rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 5.3125rem;
+		height: 5.248125rem;
+		margin-bottom: 1.5325rem;
+	}
 }
 .card-icon__item {
 	width: 100%;
 	height: 100%;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 100%;
+		height: 100%;
+	}
 }
 .card-title {
-	font-family: 'Raleway';
+	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
 	font-size: 1.5rem;
 	text-transform: uppercase;
@@ -34,13 +59,21 @@
 	text-align: center;
 	line-height: 4.5rem;
 	margin-bottom: 1.276875rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 1.125rem;
+		line-height: 3.784375rem;
+		margin-bottom: 0;
+	}
 }
 .card-text {
 }
 .card-text__item {
-	font-family: 'Raleway';
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 1.125rem;
 	color: rgba(108, 114, 121, 1);
 	text-align: center;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+	}
 }
