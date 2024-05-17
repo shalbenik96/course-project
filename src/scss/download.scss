@@ -1,5 +1,8 @@
 .download {
 	padding: 7.125rem 0;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		padding: 4.844375rem 1.25rem 4.875rem;
+	}
 }
 .download-wrapper {
 	display: flex;
@@ -14,6 +17,10 @@
 	color: rgba(0, 0, 0, 1);
 	line-height: 4.375rem;
 	text-align: center;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 1.5rem;
+		line-height: 3.75rem;
+	}
 }
 .download-title {
 	font-family: 'Raleway', sans-serif;
@@ -24,6 +31,11 @@
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 2.981875rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+		line-height: 1rem;
+		margin-bottom: 2.705625rem;
+	}
 }
 .download-button {
 	width: 23.125rem;
@@ -32,6 +44,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 19.625rem;
+		height: 5rem;
+	}
 }
 .download-button__item {
 	font-family: 'Raleway', sans-serif;
@@ -39,4 +55,7 @@
 	font-size: 1.5rem;
 	color: rgba(255, 255, 255, 1);
 	text-transform: uppercase;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 1.125rem;
+	}
 }

@@ -596,6 +596,12 @@
   padding: 7.125rem 0;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .download {
+    padding: 4.84438rem 1.25rem 4.875rem;
+  }
+}
+
 .download-wrapper {
   flex-direction: column;
   justify-content: center;
@@ -612,6 +618,13 @@
   line-height: 4.375rem;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .download-text {
+    font-size: 1.5rem;
+    line-height: 3.75rem;
+  }
+}
+
 .download-title {
   color: #000;
   text-transform: uppercase;
@@ -623,6 +636,14 @@
   line-height: 1.3125rem;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .download-title {
+    margin-bottom: 2.70563rem;
+    font-size: .875rem;
+    line-height: 1rem;
+  }
+}
+
 .download-button {
   background-color: #ff4343;
   justify-content: center;
@@ -632,12 +653,25 @@
   display: flex;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .download-button {
+    width: 19.625rem;
+    height: 5rem;
+  }
+}
+
 .download-button__item {
   color: #fff;
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-size: 1.5rem;
   font-weight: 900;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .download-button__item {
+    font-size: 1.125rem;
+  }
 }
 
 .contacts {
