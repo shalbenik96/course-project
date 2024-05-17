@@ -349,6 +349,12 @@
   padding: 7.125rem 0;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .our-team {
+    padding: 4.88875rem 1.25rem 4.90063rem;
+  }
+}
+
 .person-card-wrapper {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -359,16 +365,37 @@
   width: 16.875rem;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card {
+    width: 14.1925rem;
+  }
+}
+
 .person-card-photo {
   width: 16.875rem;
   height: 16.875rem;
   margin-bottom: 1.875rem;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card-photo {
+    width: 14.1925rem;
+    height: 14.1925rem;
+    margin-bottom: 1.57688rem;
+  }
+}
+
 .person-card-photo__item {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card-photo__item {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .person-card-name {
@@ -379,6 +406,13 @@
   font-weight: 700;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card-name {
+    margin-bottom: .2875rem;
+    font-size: 1.125rem;
+  }
+}
+
 .person-card-position {
   color: #ff4343;
   text-transform: uppercase;
@@ -387,9 +421,23 @@
   font-weight: 400;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card-position {
+    margin-bottom: 1.40313rem;
+    font-size: .875rem;
+  }
+}
+
 .person-card-text {
   margin-top: 1.11625rem;
   margin-bottom: 2.36625rem;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card-text {
+    margin-top: 1.40313rem;
+    margin-bottom: 2.45rem;
+  }
 }
 
 .person-card-text__item {
@@ -397,6 +445,33 @@
   font-family: Raleway, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card-text__item {
+    font-size: .875rem;
+  }
+
+  .person-card-icon-navigation {
+    width: 6.78125rem;
+  }
+}
+
+.person-card-icon__list {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card-icon__list {
+    width: 100%;
+  }
+
+  .person-card-icon-list__item {
+    width: 2.05rem;
+    height: 2.05rem;
+  }
 }
 
 .person-card-icon-list__link {
@@ -408,6 +483,13 @@
   width: 100%;
   height: 100%;
   display: flex;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card-icon-list__link {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .testimonials-wrapper {

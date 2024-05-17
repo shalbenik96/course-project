@@ -1,5 +1,8 @@
 .our-team {
 	padding: 7.125rem 0;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		padding: 4.88875rem 1.25rem 4.900625rem;
+	}
 }
 .person-card-wrapper {
 	display: flex;
@@ -8,16 +11,28 @@
 }
 .person-card {
 	width: 16.875rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 14.1925rem;
+	}
 }
 .person-card-photo {
 	width: 16.875rem;
 	height: 16.875rem;
 	margin-bottom: 1.875rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 14.1925rem;
+		height: 14.1925rem;
+		margin-bottom: 1.576875rem;
+	}
 }
 .person-card-photo__item {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 100%;
+		height: 100%;
+	}
 }
 .person-card-name {
 	font-family: 'Raleway', sans-serif;
@@ -25,6 +40,10 @@
 	font-size: 1.5rem;
 	color: rgba(45, 48, 51, 1);
 	margin-bottom: 0.330625rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 1.125rem;
+		margin-bottom: 0.2875rem;
+	}
 }
 .person-card-position {
 	font-family: 'Raleway', sans-serif;
@@ -32,28 +51,49 @@
 	font-size: 1.125rem;
 	color: rgba(255, 67, 67, 1);
 	text-transform: uppercase;
-	// margin-bottom: 1.11625rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+		margin-bottom: 1.403125rem;
+	}
 }
 .person-card-text {
 	margin-top: 1.11625rem;
 	margin-bottom: 2.36625rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		margin-top: 1.403125rem;
+		margin-bottom: 2.45rem;
+	}
 }
 .person-card-text__item {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 1.125rem;
 	color: rgba(108, 114, 121, 1);
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+	}
 }
 .person-card-icon-navigation {
 	width: 8.0625rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 6.78125rem;
+	}
 }
 .person-card-icon__list {
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 100%;
+	}
 }
 .person-card-icon-list__item {
 	width: 2.4375rem;
 	height: 2.4375rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 2.05rem;
+		height: 2.05rem;
+	}
 }
 .person-card-icon-list__link {
 	width: 100%;
@@ -64,4 +104,8 @@
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 100%;
+		height: 100%;
+	}
 }
