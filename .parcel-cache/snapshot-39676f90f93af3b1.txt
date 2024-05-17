@@ -65,7 +65,7 @@
 103D:\study\frontend\course-project_tms\course-project\node_modules\term-size\vendor\windows\term-size.exe133587295279617439 0
 77D:\study\frontend\course-project_tms\course-project\node_modules\gopd\LICENSE133587304523765919 0
 98D:\study\frontend\course-project_tms\course-project\node_modules\caniuse-lite\data\features\ttf.js133587295314993182 0
-79D:\study\frontend\course-project_tms\course-project\dist\index.e8265c92.css.map133604288291729716 0
+79D:\study\frontend\course-project_tms\course-project\dist\index.e8265c92.css.map133604297497122256 0
 104D:\study\frontend\course-project_tms\course-project\node_modules\caniuse-lite\data\features\mpeg-dash.js133587295311838842 0
 109D:\study\frontend\course-project_tms\course-project\node_modules\caniuse-lite\data\features\css-namespaces.js133587295304667252 0
 113D:\study\frontend\course-project_tms\course-project\node_modules\dicer\bench\formidable-bench-multipart-parser.js133587304531595751 0
@@ -215,7 +215,7 @@
 84D:\study\frontend\course-project_tms\course-project\node_modules\es6-promise\LICENSE133587304529252014 0
 86D:\study\frontend\course-project_tms\course-project\node_modules\lodash\fp\conforms.js133587304556680230 0
 88D:\study\frontend\course-project_tms\course-project\node_modules\call-bind\.eslintignore133587304521558040 0
-75D:\study\frontend\course-project_tms\course-project\dist\index.e8265c92.css133604288291573474 0
+75D:\study\frontend\course-project_tms\course-project\dist\index.e8265c92.css133604297497102263 0
 97D:\study\frontend\course-project_tms\course-project\node_modules\htmlnano\lib\presets\ampSafe.cjs133587295275085911 0
 76D:\study\frontend\course-project_tms\course-project\node_modules\detect-libc133587295279224117 1
 103D:\study\frontend\course-project_tms\course-project\node_modules\caniuse-lite\data\features\wai-aria.js133587295315489232 0
@@ -254,7 +254,7 @@
 103D:\study\frontend\course-project_tms\course-project\node_modules\posthtml-parser\dist\chunk.T6SARJYH.js133587295274809081 0
 84D:\study\frontend\course-project_tms\course-project\node_modules\ipaddr.js\README.md133587304527825821 0
 102D:\study\frontend\course-project_tms\course-project\node_modules\css-tree\cjs\syntax\node\Selector.cjs133587295300567248 0
-56D:\study\frontend\course-project_tms\course-project\dist133604288291729716 1
+56D:\study\frontend\course-project_tms\course-project\dist133604297497122256 1
 94D:\study\frontend\course-project_tms\course-project\node_modules\@parcel\packager-html\LICENSE133587295273814986 0
 117D:\study\frontend\course-project_tms\course-project\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\api133587295284959708 1
 78D:\study\frontend\course-project_tms\course-project\node_modules\minimist\test133587304542445808 1
@@ -327,7 +327,7 @@
 71D:\study\frontend\course-project_tms\course-project\node_modules\busboy133587304545548509 1
 102D:\study\frontend\course-project_tms\course-project\node_modules\@parcel\runtime-react-refresh\LICENSE133587295273776970 0
 85D:\study\frontend\course-project_tms\course-project\node_modules\lodash\isFunction.js133587304559648971 0
-78D:\study\frontend\course-project_tms\course-project\src\scss\testimonials.scss133600907379805694 0
+78D:\study\frontend\course-project_tms\course-project\src\scss\testimonials.scss133604297495731667 0
 82D:\study\frontend\course-project_tms\course-project\node_modules\lodash\isEqual.js133587304559492725 0
 88D:\study\frontend\course-project_tms\course-project\node_modules\lodash\_baseToString.js133587304552002003 0
 93D:\study\frontend\course-project_tms\course-project\node_modules\nth-check\lib\parse.d.ts.map133587295287125417 0
