@@ -162,6 +162,7 @@
 }
 
 .header-navigation-list__item {
+  justify-content: center;
   align-items: center;
   width: 8.375rem;
   display: flex;
@@ -173,6 +174,14 @@
     width: 7rem;
     height: 1.75rem;
   }
+}
+
+.header-navigation-list__item:hover {
+  border-bottom: 3px solid #babbc5;
+}
+
+.header-navigation-list__item:active {
+  border-bottom: 3px solid #e71414;
 }
 
 .header-navigation-list__item a {
@@ -188,6 +197,10 @@
     font-size: .75rem;
     line-height: 1.75rem;
   }
+}
+
+.header-navigation-list__item a:active {
+  color: #e71414;
 }
 
 .header-title {

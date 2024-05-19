@@ -62,7 +62,7 @@
 105D:\study\frontend\course-project_tms\course-project\node_modules\jquery\src\css\hiddenVisibleSelectors.js133587304885681553 0
 86D:\study\frontend\course-project_tms\course-project\dist\img\favicons\site.webmanifest133606149253264488 0
 127D:\study\frontend\course-project_tms\course-project\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\syntaxes.json133587295289602814 0
-79D:\study\frontend\course-project_tms\course-project\dist\index.e8265c92.css.map133606152631337528 0
+79D:\study\frontend\course-project_tms\course-project\dist\index.e8265c92.css.map133606197721536443 0
 104D:\study\frontend\course-project_tms\course-project\node_modules\caniuse-lite\data\features\mpeg-dash.js133587295311838842 0
 109D:\study\frontend\course-project_tms\course-project\node_modules\caniuse-lite\data\features\css-namespaces.js133587295304667252 0
 113D:\study\frontend\course-project_tms\course-project\node_modules\dicer\bench\formidable-bench-multipart-parser.js133587304531595751 0
@@ -262,7 +262,7 @@
 84D:\study\frontend\course-project_tms\course-project\node_modules\es6-promise\LICENSE133587304529252014 0
 86D:\study\frontend\course-project_tms\course-project\node_modules\lodash\fp\conforms.js133587304556680230 0
 88D:\study\frontend\course-project_tms\course-project\node_modules\call-bind\.eslintignore133587304521558040 0
-75D:\study\frontend\course-project_tms\course-project\dist\index.e8265c92.css133606152631307534 0
+75D:\study\frontend\course-project_tms\course-project\dist\index.e8265c92.css133606197721506477 0
 97D:\study\frontend\course-project_tms\course-project\node_modules\htmlnano\lib\presets\ampSafe.cjs133587295275085911 0
 87D:\study\frontend\course-project_tms\course-project\node_modules\mongoose\.eslintignore133587304527825821 0
 73D:\study\frontend\course-project_tms\course-project\node_modules\inherits133587304528138334 1
@@ -276,7 +276,7 @@
 103D:\study\frontend\course-project_tms\course-project\node_modules\posthtml-parser\dist\chunk.T6SARJYH.js133587295274809081 0
 84D:\study\frontend\course-project_tms\course-project\node_modules\ipaddr.js\README.md133587304527825821 0
 102D:\study\frontend\course-project_tms\course-project\node_modules\css-tree\cjs\syntax\node\Selector.cjs133587295300567248 0
-56D:\study\frontend\course-project_tms\course-project\dist133606152631347527 1
+56D:\study\frontend\course-project_tms\course-project\dist133606197721536443 1
 94D:\study\frontend\course-project_tms\course-project\node_modules\@parcel\packager-html\LICENSE133587295273814986 0
 117D:\study\frontend\course-project_tms\course-project\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\api133587295284959708 1
 78D:\study\frontend\course-project_tms\course-project\node_modules\minimist\test133587304542445808 1
@@ -339,7 +339,7 @@
 139D:\study\frontend\course-project_tms\course-project\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\walk.js133587295302044177 0
 85D:\study\frontend\course-project_tms\course-project\node_modules\ordered-binary\.idea133587295285557799 1
 71D:\study\frontend\course-project_tms\course-project\src\scss\fonts.scss133587322882094498 0
-72D:\study\frontend\course-project_tms\course-project\src\scss\header.scss133606152628998097 0
+72D:\study\frontend\course-project_tms\course-project\src\scss\header.scss133606197719503352 0
 113D:\study\frontend\course-project_tms\course-project\node_modules\csso\cjs\restructure\prepare\processSelector.cjs133587295291554099 0
 104D:\study\frontend\course-project_tms\course-project\node_modules\svgo\plugins\cleanupEnableBackground.js133587295293863852 0
 78D:\study\frontend\course-project_tms\course-project\node_modules\tslib\modules133587295283707097 1

@@ -116,11 +116,18 @@
 	width: 8.375rem;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
 		width: 7rem;
 		height: 1.75rem;
 		justify-content: center;
 	}
+}
+.header-navigation-list__item:hover {
+	border-bottom: 3px solid rgba(186, 187, 197, 1);
+}
+.header-navigation-list__item:active {
+	border-bottom: 3px solid rgba(231, 20, 20, 1);
 }
 .header-navigation-list__item a {
 	font-family: 'Raleway', sans-serif;
@@ -132,6 +139,9 @@
 		font-size: 0.75rem;
 		line-height: 1.75rem;
 	}
+}
+.header-navigation-list__item a:active {
+	color: rgba(231, 20, 20, 1);
 }
 .header-title {
 	visibility: visible;
