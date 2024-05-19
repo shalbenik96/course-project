@@ -15,6 +15,12 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header {
+    padding-bottom: 3.25rem;
+  }
+}
+
 .header:after {
   content: "";
   background-color: #252b498c;
@@ -37,6 +43,12 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header-wrapper {
+    max-width: 100%;
+  }
+}
+
 .header-inner {
   border-bottom: 1px solid #babbc5;
   flex-wrap: wrap;
@@ -53,14 +65,53 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header-inner {
+    width: 100%;
+    margin-bottom: 3.1075rem;
+  }
+}
+
 .header-logo {
-  width: 14.4375rem;
-  height: 6.25rem;
+  width: 16.875rem;
+  height: 6.30938rem;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .header-logo {
+    width: 14.4375rem;
+    height: 6.25rem;
+  }
+}
+
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header-logo {
+    width: 8.125rem;
+    height: 3.5175rem;
+  }
 }
 
 .header-logo__item {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .header-logo__item {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header-logo__item {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#toggle {
+  display: none;
 }
 
 .header-navigation {
@@ -76,6 +127,18 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header-navigation {
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in-out;
+    display: flex;
+    position: absolute;
+    top: -100%;
+  }
+}
+
 .header-navigation-list {
   flex-wrap: wrap;
   width: 100%;
@@ -86,6 +149,15 @@
   .header-navigation-list {
     width: 100%;
     height: 1.75rem;
+  }
+}
+
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header-navigation-list {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    line-height: 3.9375rem;
   }
 }
 
@@ -119,6 +191,7 @@
 }
 
 .header-title {
+  visibility: visible;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -137,6 +210,14 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header-title {
+    width: 100%;
+    margin-bottom: 2.04438rem;
+    font-size: 2.25rem;
+  }
+}
+
 .header-title-text {
   width: 100%;
   margin-bottom: 4.97313rem;
@@ -146,6 +227,13 @@
   .header-title-text {
     width: 100%;
     margin-bottom: 5.57125rem;
+  }
+}
+
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header-title-text {
+    width: 100%;
+    margin-bottom: 3.08063rem;
   }
 }
 
@@ -163,6 +251,12 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header-title-text__item {
+    font-size: .875rem;
+  }
+}
+
 .header-link {
   background-color: #ff4343;
   width: 23.125rem;
@@ -177,6 +271,13 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .header-link {
+    width: 17.5rem;
+    height: 3.75rem;
+  }
+}
+
 .header-link__item {
   color: #fff;
   text-transform: uppercase;
@@ -187,6 +288,80 @@
   font-weight: 900;
   line-height: 5rem;
   display: flex;
+}
+
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .hamburger {
+    z-index: 5;
+    width: 2em;
+    height: 45px;
+    margin-top: -45px;
+    margin-left: -2em;
+    position: absolute;
+    top: 5em;
+    right: 5%;
+  }
+
+  .hamburger div {
+    background-color: #f8982b;
+    border-radius: 3px;
+    width: 3em;
+    height: 7px;
+    margin-top: 8px;
+    transition: all .3s ease-in-out;
+    position: relative;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  #toggle:checked + .hamburger .top-bun {
+    margin-top: 25px;
+    transform: rotate(-45deg);
+  }
+
+  #toggle:checked + .hamburger .bottom-bun {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+
+  #toggle:checked + .hamburger .meat {
+    margin-top: -7px;
+    transform: rotate(45deg);
+  }
+
+  #toggle:checked + .hamburger + .header-navigation {
+    transition: all .3s ease-in-out;
+    top: 0;
+    transform: scale(1);
+  }
+
+  #toggle:checked + .hamburger + .header-navigation:after {
+    content: "";
+    background-color: #252b498c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .header-navigation {
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .active__text {
+    visibility: hidden;
+    transition: all .15s ease-in-out;
+  }
+
+  .scroll__disable {
+    overflow: hidden;
+  }
 }
 
 .features {
@@ -304,9 +479,30 @@
 
 .work-card:hover:after {
   content: "";
+  z-index: 50;
   background-color: #ff4343cc;
   width: 100%;
-  height: 100%;
+  height: 98%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.work-card:hover .word-card-description {
+  z-index: 100;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 30%;
+}
+
+.work-card:active:after {
+  content: "";
+  z-index: 60;
+  background-color: #b90c0ccc;
+  width: 100%;
+  height: 98%;
   position: absolute;
   top: 0;
   left: 0;
@@ -321,7 +517,7 @@
 }
 
 .work-card-title {
-  color: #ff000080;
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
   width: 23.75rem;
@@ -339,7 +535,7 @@
 }
 
 .work-card-text__item {
-  color: #ff000080;
+  color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
@@ -892,6 +1088,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: Raleway, Cardo, sans-serif;
   font-size: 16px;
 }
@@ -914,7 +1111,14 @@ html {
 
 @media screen and (width >= 1023.9px) and (width <= 1169.9px) {
   .container {
-    width: 61.5rem;
+    max-width: 61.5rem;
+    padding: 0;
+  }
+}
+
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .container {
+    max-width: 17.5rem;
     padding: 0;
   }
 }

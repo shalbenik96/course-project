@@ -3,6 +3,7 @@
 @import '../scss/cdn.scss';
 @import '../scss/fonts.scss';
 @import '../scss/header.scss';
+@import '../scss/header-hamburger.scss';
 @import '../scss/features.scss';
 @import '../scss/work.scss';
 @import '../scss/our-team.scss';
@@ -14,6 +15,7 @@
 html {
 	font-family: 'Raleway', 'Cardo', sans-serif;
 	font-size: 16px;
+	scroll-behavior: smooth;
 }
 
 * {
@@ -30,7 +32,11 @@ html {
 	position: relative;
 	z-index: 10;
 	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
-		width: 61.5rem;
+		max-width: 61.5rem;
+		padding: 0;
+	}
+	@media screen and (min-width: 319.9px) and (max-width: 1023.9px) {
+		max-width: 17.5rem;
 		padding: 0;
 	}
 }
