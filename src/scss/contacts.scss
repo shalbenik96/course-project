@@ -1,6 +1,9 @@
 .contacts {
 	padding: 4.44625rem 0 4.4375rem;
 	background-color: rgba(53, 60, 101, 1);
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		padding: 2.911875rem 1.25rem 2.574375rem;
+	}
 }
 .container__contacts {
 	display: flex;
@@ -9,6 +12,9 @@
 }
 .location-inner {
 	width: 23.125rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 19.6875rem;
+	}
 }
 .location-title {
 	font-family: 'Raleway', sans-serif;
@@ -18,6 +24,10 @@
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 1.8125rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+		margin-bottom: 1.1075rem;
+	}
 }
 .location-text {
 	text-align: center;
@@ -27,12 +37,18 @@
 	font-weight: 400;
 	font-size: 1.125rem;
 	color: rgba(255, 255, 255, 1);
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+	}
 }
 .social-inner {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 23.125rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 19.625rem;
+	}
 }
 .social-title {
 	font-family: 'Raleway', sans-serif;
@@ -42,9 +58,16 @@
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 3.05375rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+		margin-bottom: 2.031875rem;
+	}
 }
 .person-card-icon-navigation {
 	width: 10.6875rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 8.9575rem;
+	}
 }
 .person-card-icon__list {
 	display: flex;
@@ -53,12 +76,17 @@
 .person-card-icon-list__item {
 	width: 2.4375rem;
 	height: 2.4375rem;
-}
-.person-card-icon-list__link {
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 2.0625rem;
+		height: 2.0625rem;
+	}
 }
 
 .about-inner {
 	width: 23.125rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		width: 19.6875rem;
+	}
 }
 .about-title {
 	font-family: 'Raleway', sans-serif;
@@ -68,6 +96,10 @@
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 1.794375rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+		margin-bottom: 0.97375rem;
+	}
 }
 .about-text {
 	text-align: center;
@@ -77,4 +109,7 @@
 	font-weight: 400;
 	font-size: 1.125rem;
 	color: rgba(255, 255, 255, 1);
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+	}
 }

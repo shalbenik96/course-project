@@ -679,6 +679,12 @@
   padding: 4.44625rem 0 4.4375rem;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .contacts {
+    padding: 2.91188rem 1.25rem 2.57438rem;
+  }
+}
+
 .container__contacts {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -689,6 +695,12 @@
   width: 23.125rem;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .location-inner {
+    width: 19.6875rem;
+  }
+}
+
 .location-title {
   color: #fff;
   text-align: center;
@@ -697,6 +709,13 @@
   font-family: Raleway, sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .location-title {
+    margin-bottom: 1.1075rem;
+    font-size: .875rem;
+  }
 }
 
 .location-text {
@@ -710,11 +729,23 @@
   font-weight: 400;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .location-text__item {
+    font-size: .875rem;
+  }
+}
+
 .social-inner {
   flex-direction: column;
   align-items: center;
   width: 23.125rem;
   display: flex;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .social-inner {
+    width: 19.625rem;
+  }
 }
 
 .social-title {
@@ -727,8 +758,21 @@
   font-weight: 700;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .social-title {
+    margin-bottom: 2.03188rem;
+    font-size: .875rem;
+  }
+}
+
 .person-card-icon-navigation {
   width: 10.6875rem;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card-icon-navigation {
+    width: 8.9575rem;
+  }
 }
 
 .person-card-icon__list {
@@ -741,8 +785,21 @@
   height: 2.4375rem;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .person-card-icon-list__item {
+    width: 2.0625rem;
+    height: 2.0625rem;
+  }
+}
+
 .about-inner {
   width: 23.125rem;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .about-inner {
+    width: 19.6875rem;
+  }
 }
 
 .about-title {
@@ -755,6 +812,13 @@
   font-weight: 700;
 }
 
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .about-title {
+    margin-bottom: .97375rem;
+    font-size: .875rem;
+  }
+}
+
 .about-text {
   text-align: center;
 }
@@ -764,6 +828,12 @@
   font-family: Raleway, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
+}
+
+@media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .about-text__item {
+    font-size: .875rem;
+  }
 }
 
 .footer {
