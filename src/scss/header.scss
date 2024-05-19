@@ -193,6 +193,14 @@
 		height: 3.75rem;
 	}
 }
+.header-link:hover {
+	background-color: rgba(231, 20, 20, 1);
+	transition: all 0.3s ease-in-out;
+}
+.header-link:active {
+	background-color: rgba(255, 67, 67, 1);
+	filter: drop-shadow(7px 10px 7px rgba(255, 67, 67, 1));
+}
 .header-link__item {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;

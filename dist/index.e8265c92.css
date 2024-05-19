@@ -278,6 +278,16 @@
   }
 }
 
+.header-link:hover {
+  background-color: #e71414;
+  transition: all .3s ease-in-out;
+}
+
+.header-link:active {
+  filter: drop-shadow(7px 10px 7px #ff4343);
+  background-color: #ff4343;
+}
+
 .header-link__item {
   color: #fff;
   text-transform: uppercase;
