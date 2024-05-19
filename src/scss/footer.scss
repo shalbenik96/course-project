@@ -1,6 +1,9 @@
 .footer {
 	background-color: rgba(44, 49, 84, 1);
 	padding: 1.49125rem 0 1.50875rem;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		padding: 0.8925rem 0 0.901875rem;
+	}
 }
 .container__footer {
 	display: flex;
@@ -10,12 +13,18 @@
 .footer-copyright {
 	max-width: 23.125rem;
 	text-align: center;
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		max-width: 19.625rem;
+	}
 }
 .footer-copyright__item {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 1.125rem;
 	color: rgba(128, 128, 128, 1);
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+	}
 }
 .footer-copyright__item::after {
 	content: 'by Kamal Chaneman';
@@ -23,4 +32,7 @@
 	font-weight: 400;
 	font-size: 1.125rem;
 	color: rgba(255, 255, 255, 1);
+	@media screen and (min-width: 1023.9px) and (max-width: 1169.9px) {
+		font-size: 0.875rem;
+	}
 }
