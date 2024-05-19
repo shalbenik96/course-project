@@ -397,6 +397,12 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .features {
+    padding: 2.5rem 1.25rem 2.17813rem;
+  }
+}
+
 .container__features {
   flex-direction: column;
   align-items: center;
@@ -420,6 +426,15 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .card-wrapper {
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 2.09125rem;
+    max-width: 100%;
+  }
+}
+
 .card {
   height: 19.0894rem;
 }
@@ -427,6 +442,12 @@
 @media screen and (width >= 1023.9px) and (width <= 1169.9px) {
   .card {
     height: 14.8125rem;
+  }
+}
+
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .card {
+    height: 15rem;
   }
 }
 
@@ -444,12 +465,27 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .card-icon {
+    width: 4.70563rem;
+    height: 4.64813rem;
+    margin-bottom: 1.3575rem;
+  }
+}
+
 .card-icon__item {
   width: 100%;
   height: 100%;
 }
 
 @media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .card-icon__item {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
   .card-icon__item {
     width: 100%;
     height: 100%;
@@ -475,6 +511,14 @@
   }
 }
 
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
+  .card-title {
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    line-height: 3.35188rem;
+  }
+}
+
 .card-text__item {
   color: #6c7279;
   text-align: center;
@@ -484,6 +528,12 @@
 }
 
 @media screen and (width >= 1023.9px) and (width <= 1169.9px) {
+  .card-text__item {
+    font-size: .875rem;
+  }
+}
+
+@media screen and (width >= 319.9px) and (width <= 1023.9px) {
   .card-text__item {
     font-size: .875rem;
   }
